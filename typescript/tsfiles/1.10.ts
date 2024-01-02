@@ -40,4 +40,6 @@
         designation2: 'BackEnd Dev'
     }
 
+    console.log(fullStackDeveloper)
+
 }
