@@ -19,7 +19,7 @@ npm install --save-dev typescript
 
 Check installed or not: tsc --version
 
-# How works TypeScript
+# How TypeScript works
 
 ```js
 tsc file-name
@@ -27,6 +27,26 @@ tsc file-name
 // If you don't want to do the same comman everytime, then use the following
 tsc file-name --watch
 ```
+
+</br>
+
+
+# How to run TypeScript code
+
+- tsc file-name to convert ts file to js file
+- now run js code using node
+
+else
+
+- [install ts-node-dev](https://www.npmjs.com/package/ts-node-dev)
+- install globally 
+
+```js
+npm i -g ts-node-dev
+ts-node-dev --respawn --transpile-only ts_file_location
+
+
+
 
 </br>
 
